@@ -1,0 +1,32 @@
+.beartext{
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.li{
+    font-style: italic;
+    
+}
+.img{
+    height: 400px;
+    width: auto;
+    
+    
+}
+h5{
+    text-align:justify;
+}
+.link{
+    color: rgb(89, 43, 216);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    
+}
+.blink {
+    animation: blinker 1s step-start infinite;
+  }
+  
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
