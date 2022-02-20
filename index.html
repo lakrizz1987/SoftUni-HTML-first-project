@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <form action="#">
+        <fieldset>
+            <legend>Customer Details</legend>
+            <legend for="fname"><b>First Name</b> <input type="text" id="fname" name="fname"></legend><br>
+            <legend for="lname"><b>Last Name</b> <input type="text" id="lname" name="lname"></legend><br>
+            <legend for="gender">
+                <b>Male</b> <input type="radio" id="mgender" name="mgender">
+                <b>Female</b> <input type="radio" id="fgender" name="fgender">
+                <b>Other</b> <input type="radio" id="ogender" name="ogender">
+            </legend><br>
+            <legend for="contact">
+                <b>Preferred contact method: </b> 
+                Email<input type="radio" id="remail" name="remail"> 
+                Phone<input type="radio" id="rphone" name="rphone">
+            </legend><br>
+            <legend for="mail">
+                <b>Email</b> <input type="email" id="email" name="email">
+            </legend><br>
+            <legend for="phone">
+                <b>Phone</b> <input type="number" id="phone" name="phone">
+            </legend><br>
+            <legend for="town">
+                <b>Town</b> <select name="town" id="town">
+                    <option value="Plovdiv">Plovdiv</option>
+                    <option value="Varna">Varna</option>
+                    <option value="Burgas">Burgas</option>
+                    <option value="Varna">Sofia</option>
+                    <option value="Ruse">Ruse</option>
+                </select>
+            </legend><br>
+            <legend for="age">
+                <b>Age</b> <input type="number" id="age" name="age" min="18" max="70">
+            </legend><br>
+            <label for="text">
+                <textarea name="text" id="text" cols="30" rows="10">More information...</textarea>
+            </label><br>
+            <label for="check">
+                <input type="checkbox"> <u>I agree the Terms and Conditions</u>
+            </label><br><br>
+            <label for="button">
+                <input type="submit">
+            </label>
+        </fieldset>
+
+    </form>
+</body>
+
+</html>
